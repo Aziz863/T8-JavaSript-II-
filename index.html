@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/code.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript II</title>
+</head>
+
+<body onload="relojDigital()">
+    <h1>Javascript II</h1>
+
+    <!--Párrafos del ejercicio 13-->
+    <h2>Párrafo</h2>
+    <p onclick="parrafo()">Lorem ipsum dolor sit, dolorum alias debitis suscipit quidem ipsum, temporibus eveniet omnis totam eligendi!
+    </p>
+    <h2>Tabla 1</h2>
+    <table>
+        <tr>
+            <th>Párrafo 1 de la tabla 1</th>
+            <th>Párrafo 2 de la tabla 1</th>
+        </tr>
+        <tr>
+            <td>
+                <p onclick="parrafo()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate nihil recusandae ipsam deserunt laudantium veniam vel consectetur quasi possimus?</p>
+            </td>
+            <td>
+                <p onclick="parrafo()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit magni provident eos cumque unde consequatur dolor quos quod, fugiat, perferendis aperiam odit. Quia ad quam tenetur delectus similique necessitatibus?</p>
+            </td>
+        </tr>
+    </table>
+    <h2>Tabla 2</h2>
+    <table>
+        <tr>
+            <th>Párrafo 1 de la tabla 2</th>
+            <th>Párrafo 2 de la tabla 2</th>
+        </tr>
+        <tr>
+            <td>
+                <p onclick="parrafoTabla2()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque quis pariatur nesciunt ut?</p>
+            </td>
+            <td>
+                <p onclick="parrafoTabla2()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis quas eum ea cum quos labore debitis dolor? Eum, unde!</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Visor de imágenes del ejercicio 15-->
+    <h1>Visor de imágenes</h1>
+    <div class="contenedor">
+        <div class="izquierda">
+            <img src="img/foto1.jpg" onclick="ampliarImagen(1)" id="img1" alt="Taj Mahal">
+            <img src="img/foto2.jpg" onclick="ampliarImagen(2)" id="img2" alt="Campo verde">
+            <img src="img/foto3.jpg" onclick="ampliarImagen(3)" id="img3" alt="Partenón">
+            <img src="img/foto4.jpg" onclick="ampliarImagen(4)" id="img4" alt="Barco de vela">
+            <img src="img/foto5.jpg" onclick="ampliarImagen(5)" id="img5" alt="Montañas verdes">
+            <img src="img/foto6.jpg" onclick="ampliarImagen(6)" id="img6" alt="Egipto">
+            <img src="img/foto7.jpg" onclick="ampliarImagen(7)" id="img7" alt="Palacio">
+            <img src="img/foto8.jpg" onclick="ampliarImagen(8)" id="img8" alt="Muralla">
+        </div>
+        <div class="derecha">
+            <img src="img/foto1.jpg" id="principal" alt="Taj Mahal">
+            <p id="pie">Taj Mahal</p>
+        </div>
+    </div>
+    <hr>
+
+    <!--Reloj del ejercicio 16-->
+    <div class="contReloj">
+        <h1>Reloj digital</h1>
+        <p id="reloj">reloj</p>
+    </div>
+
+</body>
+
+</html>
